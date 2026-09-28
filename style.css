@@ -8,7 +8,7 @@ body {
 
 }
 .sidebar{
-	width:200px;
+	width:110px;
 	height:100px;
 	background:#0f1014;
 	padding:0px;
@@ -16,7 +16,7 @@ body {
 	
 }
 .sidebar .logo img{
-	width:80px;
+	width:90px;
 	margin-bottom:30px;
 	padding:50px 0 0 0;
 	
@@ -24,7 +24,7 @@ body {
 
 .menu{
 	list-style:none;
-	padding:20px;
+	padding:1px;
 	background:#0f1014;
 	position:fixed;
 	
@@ -35,7 +35,7 @@ body {
 	padding:14px 10px;
 	font-size:16px;
 	color:#8f98a8;
-	cursor:pointer;
+	/*cursor:pointer;*/
 	display:flex;
 	gap:15px;
 	opacity:0.7;
@@ -52,41 +52,47 @@ body {
 
 }
 .ad-box{
-	background:#1a1d23;
-	height:300px;
+	/*background:#1a1d23;*/
+	/*height:300px;*/
+	background:black;
 
 }
 .ad-left img{
-	/*width:500px;
-	height:350px;
-	object-fit:cover;*/
 	width:100%;
+	height:97%;
+	/*object-fit:cover;
+	width:100%;*/
+	/*height:350px;*/
+	/*padding:10px 0 0px 80px;*/
+	border-radius:15px;
+}
+.ad-right {
+	padding:25px 0 20px 5px;
+	background:#1a1d23;
+}
+.ad-right p{
+	font-size:21px;
+}
 
-}
-.ad-right{
-	padding:15px 0 0 0;
-	/*font-size:14px;*/
-}
-.ad-right .right1 img{
+.ad-header img{
 	width:190px;
 	height:190px;
+	padding:0px 0 0 5px;
 	
 }
-/*.ad-right img{
-	padding:25px;
-	
-}
-.ad-right h4{
-	font-size:14px;
-}*/
+.ad-header{
+	display:flex;
+	/*gap:2px;*/
+	align-items:center;
+}	
+
+
 .btn-try{
 	background:#2f333d; 
 	color:white;
 	border:none;
-	padding:10px 65px;
-	/*border-radius:8px;*/
+	padding:10px  50px;
+	border-radius:8px;
 	font-size:24px;
 }
-.top img{
-	width:100%;
-}
+
