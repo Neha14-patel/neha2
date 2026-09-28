@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="aos.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" data-aos="flip-left">
+                    <h1>Neha</h1>
+                    
+
+                </div>
+                <div class="col" data-aos="zoom-in-up">
+                    Kumari
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" data-aos="fade-left">
+                    <h1>xtx</h1>
+                </div>
+                <div class="col" data-aos="fade-right">
+                    <h1>ghj</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-3" data-aos="fade-left">
+                    <!-- chart js -->
+                    <canvas id="myChart"></canvas>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Dhanbad', 'Jamshedpur', 'Ranchi', 'Hazaribagh', 'Udaipur', 'Kolkata'],
+                datasets: [{
+                    label: '# of Population',
+                    data: [20, 59, 13, 45, 72, 33],
+                    borderWidth: 1,
+                    backgroundColor: '#36A2EB',
+                    borderColor: '#F2C507',
+
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- aos js -->
+    <script src="aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
