@@ -27,7 +27,7 @@ body {
 	padding:1px;
 	background:#0f1014;
 	position:fixed;
-	
+	z-index:-1000;
 	
 
 }
@@ -97,5 +97,19 @@ body {
 }
 .top img{
 	width:100%;
+	
+}
+.top{
+	position:relative;
+}
+.bott-rt img{
+	width:100%;
+	
+}
+.bott-rt{
+	position:absolute;
+	left:20px;
+	bottom:20px;
+	padding:20px ;
 }
 
