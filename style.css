@@ -142,7 +142,7 @@ body {
 	background: linear-gradient(to right, rgba(0,0,0,0.95) 35%, transparent 70%);
 	color: white;
 	z-index:2;
-	width:50%;
+	width:70%;
 
 }
 .movie-title-logo{
@@ -159,6 +159,19 @@ body {
 .action-buttons{
 	gap:15px; 
 	display:flex;
+}
+.genres{
+	display:flex;
+	color:white;
+	font-size:19px;
+	font-weight: 700;
+	margin: 15px 0px  25px 0px;
+	white-space: nowrap;
+	flex-wrap:nowrap; 
+	gap:8px;
+}
+.genres .line{
+	color:#8f8f8f;
 }
 
 
