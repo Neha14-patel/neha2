@@ -173,5 +173,17 @@ body {
 .genres .line{
 	color:#8f8f8f;
 }
+.text-1{
+	color:white;
+	font-size:26px;
+	font-weight:700;
+}
+.ATOP img{
+	width:220px;
+	height:310px;
+	border-radius:10px;
+	border:none;
+
+}
 
 
