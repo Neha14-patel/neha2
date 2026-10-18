@@ -136,12 +136,17 @@
     <section>
         <div class="container">
             <div class="row text-1">
-                New On JioHotstar
+                <div class="col">
+                    New On JioHotstar
+                </div>
             </div>
             <div class="row">
                 <div class="sliderr">
+
                     <div>
                         <img src="a1.avif" alt="">
+
+
                     </div>
                     <div>
                         <img src="a2.avif" alt="">
@@ -176,32 +181,114 @@
     </section>
     <section>
         <div class="container">
-            <div class="row"></div>
+            <div class="row text-1">
+                Enter the Big Boss House
+
+            </div>
             <div class="row">
                 <div class="col">
+                    <div class="sliderr-1">
+                        <div>
+                            <img src="bb1.avif" alt="">
+                            <p>BBS20: HRS Channel <br />
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb2.avif" alt="">
+                            <p>BBHin Day 42:Knock, <br />
+                                Knock? It's Time to Exit</p>
+                        </div>
+                        <div>
+                            <img src="bb3.avif" alt="">
+                            <p>BB: 24x7 Stream
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb4.avif" alt="">
+                            <p>BBBan Day 49: Dada Says , <br />
+                                No Dadagiri!</p>
+                        </div>
+                        <div>
+                            <img src="bb5.avif" alt="">
+                            <p>BBS10: 24x7 Stream <br />
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb3.avif" alt="">
+                            <p>BBS20: HRS Channel <br />
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb2.avif" alt="">
+                            <p>BBS10: 24x7 Stream <br />
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb4.avif" alt="">
+                            <p>BBS20: HRS Channel <br />
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb1.avif" alt="">
+                            <p>BBS10: 24x7 Stream <br />
+                                [Deferred]</p>
+                        </div>
+                        <div>
+                            <img src="bb5.avif" alt="">
+                            <p>BBS10: 24x7 Stream <br />
+                                [Deferred]</p>
+                        </div>
+                    </div>
 
                 </div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+
             </div>
         </div>
     </section>
     <section>
         <div class="container">
-            <div class="row"></div>
             <div class="row">
                 <div class="col">
-
+                    Top 10 in India Today-Hindi
                 </div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="sliderr">
+
+                    <div>
+                        <img src="a1.avif" alt="">
+
+
+                    </div>
+                    <div>
+                        <img src="a2.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a3.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a4.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a5.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a3.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a2.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a4.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a1.avif" alt="">
+                    </div>
+                    <div>
+                        <img src="a5.avif" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -227,6 +314,18 @@
         $(document).ready(function () {
             $('.sliderr').slick({
                 slidesToShow: 6,
+                dots: false,
+                arrows: true,
+                autoplay: false,
+                autoplaySpeed: 3000,
+                slidesToScroll: 5,
+                nextArrow: '<button class="slick-next">></button>',
+                prevArrow: '<button class="slick-prev"><</button>',
+            });
+
+
+            $('.sliderr-1').slick({
+                slidesToShow: 4,
                 dots: false,
                 arrows: true,
                 autoplay: false,
