@@ -223,6 +223,16 @@ body {
 	object-fit: cover;
 
 }
+.sliderr img:hover{
+	transform: scale(1.7, 1.7);
+	position:relative;
+}
+.details:hover{
+	font-size:20px;
+	position:absolute;
+	z-index: 100;
+
+}
 
 .sliderr .slick-slide {
 	margin: 0;
