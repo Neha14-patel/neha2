@@ -315,26 +315,35 @@ body {
 .details p {
 	font-size: 10px;
 }
+.hover-pd{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:0f1014;
+	/* border-radius:8px; */
+	opacity:0;
+	visibility:hidden;
+	transform:scale(1.2);
+	transition:all 0.3s ease;
+	z-index:10;
+	overflow:hidden;
 
-/* .nbox:hover .nimage img{
-	transform:scale(1.5,1.5);
+}
+.hover-pd img{
+	width:100%;
+	height:55%;
+	object-fit:cover;
+
+}
+.slick-slide:hover .hover-pd{
+	opacity:1;
 	visibility:visible;
-	z-index: 99;
-
-
-
-
+	transform:scale(1.2);
 }
-.nbox:hover .nimage{
-	height:100px;
-}
-.nbox:hover .details {
 
-	display: block !important;
-	opacity: 1;
-	visibility: visible;
-	border-radius: 20px;
-} */
+
 
 .slick-slide {
 	margin: 0 10px;
@@ -353,7 +362,6 @@ body {
 
 .slick-next {
 	right: 0;
-
 	height: 100%;
 	position: absolute;
 }
@@ -385,21 +393,6 @@ body {
 	padding: 0 5px;
 }
 
-/* .slick-next {
-	right: 0;
-	
-	height: 100%;
-	position: absolute;
-}
-
-.slick-prev {
-	left: 10px;
-	
-	height: 100%;
-	position: absolute;
-	z-index: 99;
-	border-radius: 50%;
-} */
 .sliderr-1 p {
 	bottom: 0;
 	margin: 4px 0;
@@ -466,17 +459,10 @@ body {
 	/* background-color: #0f1014; */
 
 }
-
-
 .ad-lower img {
 	background:transparent;
 	display:flex;
-
-
 }
-
-
-
 #xyz h1{
 	text-align:center;
 	position:relative;
